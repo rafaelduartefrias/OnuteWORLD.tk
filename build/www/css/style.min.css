@@ -504,7 +504,7 @@ body.vaporwave #chat_send:active {
     border: 1px solid white;
     border-radius: 4px;
     background:
-        center / 16px no-repeat url("bars.svg"),
+        center / 16px no-repeat url("https://bonzi.gay/bars.svg"),
         radial-gradient(circle at 4px 4px, #fff6 0%, #0000 70%),
         linear-gradient(to top, #512677, #0000 12px),
         linear-gradient(to left, #512677, #0000 12px),
@@ -516,7 +516,7 @@ body.vaporwave #chat_send:active {
 /* inconsistent as fuck in true XP style */
 #chat_log_button:hover {
     background:
-        center / 16px no-repeat url("bars.svg"),
+        center / 16px no-repeat url("https://bonzi.gay/bars.svg"),
         radial-gradient(circle at 4px 4px, #fff6 0%, #0000 100%),
         linear-gradient(to top, #5e3b7c, #0000 12px),
         linear-gradient(to left, #5e3b7c, #0000 12px),
@@ -527,7 +527,7 @@ body.vaporwave #chat_send:active {
 
 #chat_log_button:active {
     background:
-        center / 16px no-repeat url("bars.svg"),
+        center / 16px no-repeat url("https://bonzi.gay/bars.svg"),
         radial-gradient(circle at 4px 4px, #fff3 0%, #0000 70%),
         linear-gradient(to top, #6e4196 2px, #0000 3px),
         linear-gradient(to left, #6e4196 2px, #0000 3px),
@@ -583,7 +583,7 @@ body.vaporwave #chat_send:active {
     align-items: center;
     height: 32px;
     padding: 2px 7px 0 10px;
-    border-image: url("img/desktop/window_header.png") 0 9 fill / 0px 9px;
+    border-image: url("https://bonzi.gay/img/desktop/window_header.png") 0 9 fill / 0px 9px;
     image-rendering: pixelated;
     color: white;
     font-size: 16px;
@@ -593,7 +593,7 @@ body.vaporwave #chat_send:active {
 .window_body {
     flex: 1;
     padding: 4px 6px 6px 6px;
-    border-image: url("img/desktop/window_border.png") 0 6 6 6 / 0px 6px 6px 6px;
+    border-image: url("https://bonzi.gay/img/desktop/window_border.png") 0 6 6 6 / 0px 6px 6px 6px;
     image-rendering: pixelated;
     background: #ffe;
     overflow: hidden;
@@ -604,7 +604,7 @@ body.vaporwave #chat_send:active {
     width: 21px;
     height: 21px;
     margin-bottom: 2px;
-    background-image: url("img/desktop/close.png")
+    background-image: url("https://bonzi.gay/img/desktop/close.png")
 }
 
 .window_close:hover {
@@ -639,11 +639,6 @@ body.vaporwave #chat_send:active {
     background: url("./img/reply.svg") center / contain;
     cursor: pointer;
     user-select: none;
-}
-
-.userimage {
-    max-width: 100%;
-    max-height: 178px;
 }
 
 .log_message:hover .reply {
