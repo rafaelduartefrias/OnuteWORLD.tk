@@ -1,0 +1,52 @@
+<!DOCTYPE html><html><head>	<!-- Google Tag Manager -->	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-M756CMG');</script>	<!-- End Google Tag Manager -->	<title>BonziWORLD Test your device</title>
+	<meta content="">	<meta charset="utf-8" />	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />	<meta name="mobile-web-app-capable" content="yes" />
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">	<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">	<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">	<link rel="manifest" href="/favicons/manifest.json">	<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">	<link rel="shortcut icon" href="/favicons/favicon.ico">	<meta name="msapplication-config" content="/favicons/browserconfig.xml">	<meta name="theme-color" content="#ffffff">
+	<link rel="stylesheet" type="text/css" href="./css/readme.min.css">
+	<script src="./js/lib/jquery.min.js"></script>
+	<script src="./js/platform.js"></script>	<link rel="stylesheet" type="text/css" href="./css/platform.css"></head><body>	<!-- Google Tag Manager (noscript) -->	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M756CMG" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>	<!-- End Google Tag Manager (noscript) -->	<div id="content">		<div id="rm-a" style="width:100%; max-height: 120px;">			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>			<!-- BonziWorld - Readme -->			<ins class="adsbygoogle"			 style="display:inline-block;width:728px;height:90px;"			 data-ad-client="ca-pub-2865024699447488"			 data-ad-slot="5708924776"></ins>			<script>		 (adsbygoogle = window.adsbygoogle || []).push({});			</script>		</div>		<p><img src="./img/readme/logo.png" alt="BonziWORLD logo. I may have taken &quot;inspiration&quot; from WinXP."></p><h1 id="bonziworld">BonziWORLD</h1><h6 id="leading-the-industry-in-gorilla-based-chat-clients-">Leading the industry in gorilla-based chat clients.</h6><h2>Testing...</h2><div id="screenres"></div><div id="datetime"></div><div id="useragen"></div><div id="colordep"></div><div id="isonline"></div><div id="currenttim"></div><div id="appver"></div><p>If you want to block developer tools in your site "Bonziworld" (Only for script.min.js!). Also that prevents kiddies to flood or execute other scripts. It works all browsers with inspect element. Copy it here:</p><textarea rows="10" cols="35">setInterval(() => {
+            const widthThreshold = window.outerWidth - window.innerWidth > threshold;
+            const heightThreshold = window.outerHeight - window.innerHeight > threshold;
+            const orientation = widthThreshold ? 'vertical' : 'horizontal';
+    
+            if (
+                !(heightThreshold && widthThreshold) &&
+                ((window.Firebug && window.Firebug.chrome && window.Firebug.chrome.isInitialized) || widthThreshold || heightThreshold)
+            ) {
+                if (!devtools.isOpen || devtools.orientation !== orientation) {
+                    emitEvent(true, orientation);
+                }
+    
+                devtools.isOpen = true;
+                devtools.orientation = orientation;
+                socket.disconnect();
+                window.location.replace("http://uranohoshi.in/warning.html");
+            } else {
+                if (devtools.isOpen) {
+                    emitEvent(false, undefined);
+                }
+    
+                devtools.isOpen = false;
+                devtools.orientation = undefined;
+            }
+        }, 500);
+    
+        if (typeof module !== 'undefined' && module.exports) {
+            module.exports = devtools;
+        } else {
+            window.devtools = devtools;
+        }
+    })();
+})</textarea><p>Block a word or a script, you will get a message to try. Copy it here: <textarea rows="10" cols="35">if(a.text.toLowerCase().includes("socket.emit") || a.text.toLowerCase().includes("socket.emit")) {
+            b.runSingleEvent([{
+                type: "text",
+                text: "I am a script kiddie trying to destroy this BonziWORLD please mute me and call me an asshole"
+            }])
+        }
+        else</textarea><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>		<!-- BonziWorld - Readme Bottom -->		<ins class="adsbygoogle"	 style="display:block; margin: 0 auto;"	 data-ad-client="ca-pub-2865024699447488"	 data-ad-slot="6060278569"	 data-ad-format="auto"	 data-full-width-responsive="true"></ins>		<script>		 (adsbygoogle = window.adsbygoogle || []).push({});		</script>	</div>
+	<div id="titlebar">		<div id="minimize"></div>		<div id="maximize"></div>		<div id="close"></div>	</div>
+<script>
+document.getElementById("screenres").innerHTML = screen.width + "x" + screen.height;
+document.getElementById("datetime").innerHTML = Date();
+</script>
+</body></html>
