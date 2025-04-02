@@ -1,0 +1,145 @@
+{
+	"prefs": {
+		"public": {
+			"char_limit": 256000,
+			"name_limit": 8192,
+			"godword": null,
+			"runlevel": {
+				"godmode": 0,
+				"youtube": 0,
+				"joke": 0,
+				"fact": 0,
+				"backflip": 0,
+				"teeth": 0,
+				"swagger": 0,
+				"color": 0,
+				"asshole": 0,
+				"triggered": 0,
+				"linux": 0,
+				"pitch": 0,
+				"speed": 0,
+				"pawn": 0,
+				"bees": 0,
+				"vaporwave": 0,
+				"unvaporwave": 0,
+				"name": 0,
+				"owo": 0,
+				"sanitize": 0,
+				"pope": 0
+			},
+			"room_max": 2048,
+			"owner": null,
+			"pitch": {
+				"max": 50000,
+				"min": -50000,
+				"default": "random"
+			},
+			"speed": {
+				"max": 50000,
+				"min": -50000,
+				"default": 0
+			},
+			"amplitude": {
+				"max": 10000000000,
+				"min": -10000000000,
+				"default": 100
+			},
+			"wordgap": {
+				"max": 1000,
+				"min": -1000,
+				"default": 0
+			},
+			"defaultName": "Anonymous"
+		},
+		"private": {
+			"char_limit": 20000,
+			"name_limit": 8192,
+			"godword": null,
+			"runlevel": {
+				"godmode": 0,
+				"youtube": 0,
+				"joke": 0,
+				"fact": 0,
+				"backflip": 0,
+				"teeth": 0,
+				"swagger": 0,
+				"color": 0,
+				"asshole": 0,
+				"triggered": 0,
+				"linux": 0,
+				"pitch": 0,
+				"speed": 0,
+				"pawn": 0,
+				"bees": 0,
+				"vaporwave": 0,
+				"unvaporwave": 0,
+				"name": 0,
+				"owo": 0,
+				"sanitize": 0,
+				"pope": 0
+			},
+			"room_max": 512,
+			"owner": null,
+			"pitch": {
+				"max": 50000,
+				"min": -50000,
+				"default": "random"
+			},
+			"speed": {
+				"max": 50000,
+				"min": -50000,
+				"default": 0
+			},
+			"amplitude": {
+				"max": 10000000000,
+				"min": -10000000000,
+				"default": 100
+			},
+			"wordgap": {
+				"max": 1000,
+				"min": -1000,
+				"default": 0
+			},
+			"defaultName": "Anonymous"
+		}
+	},
+	"consoleOutput": true,
+	"log": {
+		"info": {
+			"level": "info",
+			"filename": "./logs/info.log",
+			"maxsize": "1024000",
+			"maxFiles": "3",
+		"handleExceptions": true,
+		"humanReadableUnhandledException": true
+		},
+		"access": {
+			"level": "info",
+			"filename": "./logs/access.log",
+			"maxsize": "1024000",
+			"maxFiles": "3",
+		"handleExceptions": true,
+		"humanReadableUnhandledException": true
+		}
+	},
+	"bonziColors": [
+		"purple",
+		"blue",
+		"green",
+		"red",
+		"black",
+		"brown",
+		"ice",
+		"kernel",
+		"neon",
+		"losky",
+		"unbojih",
+		"peedy",
+		"pink"
+	],
+	"banLength": 1440,
+	"port": 6969,
+	"express": {
+		"serveStatic": true
+	}
+}

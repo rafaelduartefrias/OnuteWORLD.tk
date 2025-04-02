@@ -1,0 +1,115 @@
+{
+	"prefs": {
+		"public": {
+			"char_limit": 10000,
+			"name_limit": 5000,
+			"godword": null,
+			"runlevel": {
+				"godmode": 0,
+				"youtube": 0,
+				"joke": 0,
+				"fact": 0,
+				"backflip": 0,
+				"color": 0,
+				"asshole": 0,
+				"triggered": 0,
+				"linux": 0,
+				"pitch": 0,
+				"speed": 0,
+				"pawn": 0,
+				"bees": 0,
+				"vaporwave": 0,
+				"unvaporwave": 0,
+				"name": 0,
+				"owo": 0,
+				"sanitize": 0,
+				"pope": 0
+			},
+			"room_max": 200,
+			"owner": null,
+			"pitch": {
+				"max": 125,
+				"min": 0,
+				"default": "random"
+			},
+			"speed": {
+				"max": 5000,
+				"min": 0,
+				"default": "random"
+			},
+			"defaultName": "User"
+		},
+		"private": {
+			"char_limit": 30000,
+			"name_limit": 30000,
+			"godword": null,
+			"runlevel": {
+				"godmode": 0,
+				"youtube": 0,
+				"joke": 0,
+				"fact": 0,
+				"backflip": 0,
+				"color": 0,
+				"asshole": 0,
+				"triggered": 0,
+				"linux": 0,
+				"pitch": 0,
+				"speed": 0,
+				"pawn": 0,
+				"bees": 0,
+				"vaporwave": 0,
+				"unvaporwave": 0,
+				"name": 0,
+				"owo": 0,
+				"sanitize": 0,
+				"pope": 0
+			},
+			"room_max": 1000,
+			"owner": null,
+			"pitch": {
+				"max": 500,
+				"min": -500,
+				"default": "random"
+			},
+			"speed": {
+				"max": 5000,
+				"min": 0,
+				"default": "random"
+			},
+			"defaultName": "User"
+		}
+	},
+	"consoleOutput": false,
+	"log": {
+		"info": {
+			"level": "info",
+			"filename": "./logs/info.log",
+			"maxsize": "1024000",
+			"maxFiles": "3",
+		"handleExceptions": true,
+		"humanReadableUnhandledException": true
+		},
+		"access": {
+			"level": "info",
+			"filename": "./logs/access.log",
+			"maxsize": "1024000",
+			"maxFiles": "3",
+		"handleExceptions": true,
+		"humanReadableUnhandledException": true
+		}
+	},
+	"bonziColors": [
+		"purple",
+		"blue",
+		"green",
+		"red",
+		"black",
+		"brown",
+		"pink"
+	],
+	"banLength": 1440,
+	"port": 3000,
+	"express": {
+		"serveStatic": true
+	}
+}
